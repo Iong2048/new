@@ -1,0 +1,271 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  color:white;
+
+}
+body{
+  background-image: url(halloween-background-template-with-castle-pumpkin-and-moon-halloween-backdrop-for-sale-promotion-banner-poster-social-media-feed-invitation-event-wallpaper-in-purple-color-vector.jpg);
+  font-family: 'Merriweather', serif;
+
+}
+.search{
+  padding-right: 100px;
+}
+
+.search1{
+  border-radius: 10px;
+  color:black
+}
+
+img{
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1/1;
+  width: 1.7rem;
+  padding-left: 20px;
+}
+.nav1{
+  padding-left:60px;
+}
+
+nav{
+  display:flex;
+  padding:30px 10px 0px 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 90px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+.hero a{
+  margin:20px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.hero .btnlogin-popup{
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;    
+}
+.hero a::after{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+.hero a:hover::after{
+  transform: scaleX(1);
+}
+.hero  a:hover{
+  color: orangered;
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+.hero nav ul li a{
+  text-decoration: none;
+}
+
+main {
+  position: relative;
+  top: 1.5rem;
+}
+
+main .container{
+  display: flex;
+  grid-template-columns: 18vh auto 20vw;
+  column-gap: 2rem;
+  position: relative;
+  
+}
+
+main .container .left{
+  height: max-content;
+  position: sticky;
+}
+
+main .container .left .profile{
+  padding: 10px;
+  background: hsl(0, 1%, 16%);
+  border-radius: 2rem ;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+}
+
+.left{
+  padding-left: 30px;
+  width: 190px;
+}
+
+.left .sidebar{
+  margin-top: 1rem;
+  background: hsl(0, 1%, 16%);
+  border-radius: 10px ;
+}
+
+.left .sidebar .menu-item{
+  display: flex;
+align-items: center;
+height: 50px;
+cursor: pointer;
+transition: all 300ms ease;
+position: relative;
+padding: 10px;
+}
+
+.left .sidebar .menu-item:hover{
+  background: rgb(114, 113, 110);
+  border-radius: 10px;
+
+}
+
+
+.left .sidebar h3{
+  margin:10px;
+
+}
+.left .sidebar i{
+  position: relative;
+}
+
+.middle .create-post{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background: hsl(0, 1%, 16%);
+  padding: 10px 10px 10px 0px;
+  border-radius: 20px;
+  margin-left: 150px;
+}
+
+.middle .feeds .feed{
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 40px 0;
+  font-size: 0.85rem;
+  margin-left: 165px;
+  width:700px;
+  }
+
+.middle .feed .user{
+  display: flex;
+justify-content: space-between;}
+
+.middle .feed .photo img{
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0.7rem 0;
+  padding: 0 50px 50px 50px;
+  width: 500px;
+  height: 200px;
+
+}
+
+.middle .feed .photo {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0.7px 0;
+  display: flex;
+  justify-content: center;
+    
+  
+}
+.middle input::placeholder{
+  font-size: 14px;
+}
+.middle input{
+color:black;  
+background-color: #fff;
+font-size: 20px;
+margin:10px;
+
+}
+
+.btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+button{
+  width: 20%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin  : 0 10px 10px 10px;
+}
+
+button:hover{
+  background: hsl(0, 0%, 100%);
+  opacity: 0.1;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.btn:hover{
+  background: hsl(0, 1%, 16%);
+
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.input-box{
+  position: relative;
+  width:100%;
+  height: 50px;
+  margin: 30px 0;
+  border-bottom: 2px solid #162938;
+}
+
+.input-box{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color:#c3c3cc;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+  border-radius: 3px;
+}

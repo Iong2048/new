@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color:white;
+
+}
+body{
+    background-image: url(halloween-1702677_1280.webp);
+    font-family: 'Merriweather', serif;
+
+}
+
+.nav1{
+    padding-left:60px;
+}
+.web{
+    width: 50px;
+    height:50px;
+}
+nav{
+    display:flex;
+    padding:30px 10px 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.hero a{
+    margin:20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.hero .btnlogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;    
+}
+.hero a::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.hero a:hover::after{
+    transform: scaleX(1);
+}
+.hero  a:hover{
+    color: orangered;
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+.hero nav ul li a{
+    text-decoration: none;
+}
+.body{
+ top:27%;
+ position: absolute;
+ transform: translate(46%);
+
+}
+.not{
+    font-size: 2em;
+}
+.halow{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    font-weight:600px ;
+}
+.body button{
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    background: transparent;
+    border: 2px solid white;
+    outline:none;
+    padding: 13px 50px;
+    color: #fff
+
+}
+.body button:hover{
+opacity: 1;
+transform: scale(1.1);
+transition: 0.9s;
+cursor: pointer;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+}
+
+.count div p{
+    font-size: 60px;
+    }
+    
+
+
+

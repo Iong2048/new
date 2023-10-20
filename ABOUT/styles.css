@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.hero{
+    position:relative;
+}
+.ten1{
+    padding-left:28.6px;
+}
+
+
+
+nav{
+    display:flex;
+    padding:40px 32px 0px 32px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin :10px 16.6px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+.detel h1{
+    margin:28.8px 13.5px 0px 13.5px;
+    font-size:50px;
+    font-weight:400;
+    letter-spacing:-1px;
+}
+.detel{
+    padding: 0px 32px;
+}
+.thanbai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.4px;
+}
+.pic-item{
+    margin-top:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.thanbai p{
+    display:block;
+    line-height: 1.5;
+    font-size: 17px;
+    margin: 10px 0pX 10px 0px;
+
+
+}
+.introduce{
+    color: #111111;
+    line-height: 1.5;
+    font-size: 17px;
+
+}
+.p1   {
+
+    margin-top:24px;
+}
+.p2  {
+    margin-top:24px;
+}
+.p3{
+    margin-top:24px;
+}
+footer{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+footer .ten li{
+    list-style: none;
+    padding:50px 50px 30px 50px;
+    text-decoration: none;
+    color:black;
+}
+footer .ten a{
+    font-size:16px;
+    list-style: none;
+    padding:50px 50px 30px 50px;
+    text-decoration: none;
+    color:black;
+}
+footer .socical-icon{
+    padding:50px 50px 30px 50px;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0px;
+    flex-wrap: wrap;
+
+}
+footer .socical-icon li{
+    list-style: none;
+    
+}
+footer .socical-icon a{
+    font-size: 2em;
+    margin:0px 10px;
+    display:inline-block;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+footer .socical-icon li a:hover{
+    opacity: 1;
+    transform: scale(1.1    );
+}
+.youtube a{
+    color:red;
+}
+.facebook a{
+    color:blue;
+}
+.instagram a{
+    color:#f00075;
+}
+.discord a{
+    color:#5865F2
+}
+.github a {
+    color:black;
+}
+
+

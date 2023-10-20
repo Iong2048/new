@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="social.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+<body>
+
+        <div class="hero">
+            <nav>  
+                <ul class="nav1">    
+                <li><a href="#">LongBook</a></li>
+            </ul>
+                <ul class="hi">
+                    <li class="search"><input class="search1" type="search" placeholder="  Search"> <ion-icon name="search-outline"></ion-icon></li>
+                    <li><a  href="#">Create</a></li>
+                    <li><a  href="#">Home</a></li>
+                    <li class="game"><img src="empty-gas-station.avif"></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="container">
+                <div class="left">
+                    <a class="profile">
+                        <div class="profile-photo">
+                            <img src="empty-gas-station.avif">
+                        </div>
+                        <div class="handle">
+                            <h4>bruhlmao</h4>
+                            <p class="text-muted">
+                                @bruh
+                            </p>
+                        </div>
+                    </a>
+
+                    <div class="sidebar">
+                        <a class="menu-item active">
+                                <span><ion-icon name="home-outline"></ion-icon></span> <h3>Home</h3>
+                        </a>
+                        
+                        <a class="menu-item">
+                            <span><ion-icon name="eye-outline"></ion-icon></span> <h3>Explore</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><ion-icon name="notifications-outline"></ion-icon></span> <h3>Notifications</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><ion-icon name="mail-outline"></ion-icon></span> <h3>Messagse</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><ion-icon name="eye-outline"></ion-icon></span> <h3>Explore</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><ion-icon name="settings-outline"></ion-icon></span> <h3>Settings</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="middle">
+                    <form id="create-post" class="create-post">
+                        <div class="profile-photo">
+                            <img src="empty-gas-station.avif">
+                        </div>
+                        <input class = "input-box"size="5" type="text" placeholder="ban dang ngi gi?" id="hi">
+                        <input class = "input-box"size="5"type="text" placeholder="nhap ten ban" id="tieude">
+                        <input size="5"type="submit" value="Post" class ="btn btn-primary"> 
+                        <input class = "input-box"size="1" type="file" accept=" image/jpeg, image/png, image/jpg" id="input-file">
+                    </form>
+
+                    <div id="feeds" class="feeds">
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="empty-gas-station.avif">
+                                    </div>
+                                    <div class="admin-posts">
+                                        <h3 id="title">LONG</h3>
+                                        <small>bruh</small>
+                                    </div>
+                                    <span class="edit">
+                                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="photo" >
+                                <img id="anh" src="FB_IMG_1665463838297.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="social.js"></script>
+</body>
+</html>
